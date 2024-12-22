@@ -158,7 +158,7 @@
   .proyectos-recientes img {
     height: 100%;
     width: 100%;
-    padding: 10px;
+    padding: 5px;
     border-radius: 10px;
     display: block;
     transition: all 0.2s ease;
@@ -207,6 +207,31 @@
     margin: 10px;
   }
   
+/* Ajustes para dispositivos móviles */
+@media screen and (max-width: 767px) {
+  .proyectos-recientes img {
+      height: auto;
+      width: 100%;
+      padding: 3px;
+  }
+
+  .proyecto {
+      margin-bottom: 10px;
+  }
+
+  .overlay p {
+      font-size: 18px;
+  }
+
+  .overlay i {
+      font-size: 40px;
+  }
+
+  .col-12 {
+      flex: 0 0 100%;
+      max-width: 100%;
+  }
+}
   /* Contacto */
   
   .contacto .container {
